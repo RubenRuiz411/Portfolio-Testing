@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+
+
+}
+
+:root {
+    --base-font: 'American Typewriter', serif;
+
+
+}
+
+header {
+    font-family:var(--base-font);
+    background-color: black;
+    color: #ffffff;
+    align-items: center;
+    display: top;
+    text-align: CENTER;
+    
+    
+}
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    align-items: right;
+    display: inline-block;
+    
+    
+}
+
+header nav ul li {
+    
+    float: right;  
+    color:white;
+    background:black;
+    margin-left: 15px;
+    list-style: none;
+
+
+}
+
+p {
+    font-size:25px;
+}
+
+
+
+.work-section {
+
+    font-family:var(--base-font);
+    float: right;
+    display:flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    
+
+
+}
+
+.work-section img {
+    margin: 10px auto;
+    width: 100%;
+
+    
+}
+
+.about-me {
+    font-family:var(--base-font);
+
+    float: left;
+    width: 25%;
+
+
+
+}
+.about-me p{
+    margin-bottom: 20px;
+    font-family:var(--base-font);
+    font-size: 75%;
+    width:50%;
+    text-align: right;
+
+
+}
+
+#about-me {
+
+    display:left;
+    width: 50vw;
+}
+
+.hero {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 25px;
+    background-image:url("./images/bones-image.png") ;
+    background-size: cover;
+    background-position: center;
+}
+
