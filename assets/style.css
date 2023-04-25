@@ -63,7 +63,7 @@ p {
 
 .work-section img {
     margin: 10px auto;
-    width: 100%;
+    width: 25%;
 
     
 }
@@ -129,6 +129,11 @@ main {
     display:flex;
 }
 
+
+#main-work-section {
+    width: 100%;
+
+}
 
 ****************************
 
