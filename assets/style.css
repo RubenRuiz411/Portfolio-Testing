@@ -93,6 +93,20 @@ p {
     width: 50vw;
 }
 
+#contact {
+
+    display:left;
+    width: 50vw;
+}
+
+#work {
+
+    display:left;
+    width: 50vw;
+}
+
+
+
 .hero {
     height: 150px;
     width: 150px;
@@ -102,3 +116,26 @@ p {
     background-position: center;
 }
 
+
+.personal-information {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+
+
+}
+
+main {
+    display:flex;
+}
+
+
+****************************
+
+@media screen and (max-width: 768px) {
+    .work-section img{
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  }
+  
