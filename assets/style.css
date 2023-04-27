@@ -8,7 +8,7 @@
 
 /* root options (only have font) */
 :root {
-    --base-font: 'American Typewriter', serif;
+    --base-font: 'American Typewriter','American Typewriter 300', serif;
 }
 
 
@@ -30,7 +30,13 @@ header h1 {
 }
 
 /* header nav list settings  */
-header nav ul li {    
+.header-links {    
+    float: right;  
+    margin-left: 15px;
+    list-style: none;
+}
+
+.header-links li {    
     float: right;  
     margin-left: 15px;
     list-style: none;
@@ -39,7 +45,7 @@ header nav ul li {
 
 /* font size for paragraphs */
 p {
-    font-size:25px;
+    font-size:25;
 }
 
 
@@ -56,7 +62,11 @@ p {
 /* display settings for work-section images */
 .work-section img {
     width: 100%; 
+    object-fit: contain;
+    object-position: top;
+
 }
+
 
 
 /* section class settings for about me section */
@@ -81,6 +91,7 @@ p {
     font-size: 75%;
     width: 85%;
     text-align: right;
+
 }
 
 
@@ -111,6 +122,9 @@ p {
     width: 150px;
     background-image:url("./images/memoji-chef-kiss.png") ;
     background-size: cover;
+    position: relative;
+    left: 33%;
+
 }
 
 
@@ -133,3 +147,48 @@ main {
 }
 
 
+
+/* -------------*/
+.work-section h3 {
+    position: relative;
+    bottom: ;
+    left: 50%;
+
+
+}
+
+.work-section1 h3 {
+    position: relative;
+    bottom: 50px;
+    left: 25%;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .work-section1{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .work-section1  {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+.header-links {    
+    float: right;  
+    display: flex;
+    margin-left: 15px;
+    list-style: none;
+    flex-direction: column;
+
+}
+}
